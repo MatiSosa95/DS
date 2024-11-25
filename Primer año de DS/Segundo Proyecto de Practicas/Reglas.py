@@ -1,3 +1,0 @@
-def reglas():
-    print("""
-        Intrucciones""")
