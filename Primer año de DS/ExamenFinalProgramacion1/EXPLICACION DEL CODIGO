@@ -34,3 +34,27 @@ de elementos adyacentes. Este proceso se repite hasta que la lista está complet
 
 EXAMEN ORAL: 
 Explicar el siguiente codigo: 
+
+ vector = []
+    nro = 1
+    while nro != 0:
+        nro = int(input("Ingrese numeros positivos a su vectors.\n Para finalizar la carga coloque 0 "))
+        if nro != 0:
+            vector.append(nro)
+    return vector
+
+posicion = 0
+    while posicion <= 0:
+        posicion = int(input(
+        f"ingrese la posicion de que desea explorar.\n Recuerde las posiciones son desde 1 al {len(vector)} "))
+    print(f"El valor que se encuentra en la posicion {posicion}, es {vector[posicion - 1]}")
+
+valor = 0
+    resultado = []
+    while valor <= 0:
+      valor = int(
+      input(f"ingrese el valor de que desea buscar.\n Recuerde las posiciones son desde 1 al {len(vector)} "))
+      for i in range(len(vector)):
+        if vector[i] == valor:
+          resultado.append(i + 1)
+    rint(f"El valor buscado se encuenta en la posicion o posiciones {resultado}")
