@@ -31,3 +31,6 @@ de elementos adyacentes. Este proceso se repite hasta que la lista está complet
 3. Continúa comparando los elementos adyacentes hasta llegar al final de la lista.
 4. En cada iteración, el elemento más grande (o más pequeño) de los no ordenados "burbujea" hacia su posición final.
 5. Repite este proceso para los elementos restantes hasta que la lista esté completamente ordenada.
+
+EXAMEN ORAL: 
+Explicar el siguiente codigo: 
