@@ -1,0 +1,31 @@
+# Examen Final de Programacion 1
+
+## Introduccion
+Pequeño programa en Python, en donde se puede destacar un menú con diferentes funcionalidades. 
+
+## :hammer_and_wrench:	 Funcionalidades
+Una vez ejecutada el codigo, se mostrará un menú en el cual podrá elegir diferentes opciones
+- `Opcion 1`: Permitirá crear una lista de numeros enteros, la cual solo detendrá cuando se le ingrese un 0 por teclado.
+Estos puedes ser positivos como negativos 
+- `Opcion 2`: Permite buscar un valor a traves del indice. AL ingresar el indice, la fucnion devuelve que valor entero se encuentra en dicha posicion
+- `Opcion 3`: Permite obtener todas las posiciones en la que se encuentra un valor dentro de la lista. Devuelve una lista con los indices.
+- `Opcion 4`: Ordena de manera descendente una lista. Se usa el metodo burbuja
+- `Opcion 5`: Termina la ejecucion
+
+## :wrench: Funciones
+- crear_lista(): Funcion en la cual se crea una lista vacia y usando un bucle while, se pide al usuario que ingrese valores enteros positivos y negativos, 
+a traves del techado
+- valor_segun_posicion(vector): Se pasa como parametro una lista, para luego pedir por teclado un numero entero, que sirve como indice. Una vez lo obtenemos, 
+pasamos ese valor a la lista, la cual nos devuelve el valor en esa posicion.
+- posiciones_valor(vector): Se pasa como parametro una lista y luego se pide un valor por teclado. Recorremos la lista y si encontramos ese valor en la lista, 
+almacenamos en una nueva lista los indices donde ese valor se encuentra
+- ordenar_lista(lista): Se pasa como parametro una lista y a traves del metodo burbuja, se lo ordena de manera descendente. 
+
+### ¿Como funciona el metodo Burbuja?
+
+El método burbuja es un algoritmo de clasificación sencillo que organiza los elementos de una lista comparando y, si es necesario, intercambiando pares de elementos adyacentes. Este proceso se repite hasta que la lista está completamente ordenada
+1. Compara el primer elemento con el segundo.
+2. Si el primer elemento es mayor (o menor, dependiendo del orden deseado), intercámbialos.
+3. Continúa comparando los elementos adyacentes hasta llegar al final de la lista.
+4. En cada iteración, el elemento más grande (o más pequeño) de los no ordenados "burbujea" hacia su posición final.
+5. Repite este proceso para los elementos restantes hasta que la lista esté completamente ordenada.
